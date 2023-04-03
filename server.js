@@ -15,7 +15,7 @@ const app = express();
 //.Middlewares
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://stocklist-app.vercel.app"],
+    origin: ["http://localhost:3000", "https://stocklist.vercel.app"],
     credentials: true,
   })
 );
